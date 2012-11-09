@@ -9,4 +9,9 @@ class Home_Controller extends Base_Controller {
 		return View::make('home.index');
 	}
 
+	public function get_about()
+	{
+		return 'About';
+	}
+
 }

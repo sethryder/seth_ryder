@@ -37,6 +37,9 @@ Route::get('/', function()
 	return View::make('home.index');
 });
 
+Route::get('about', array('as' => 'about', 'uses' => 'home@about'));
+
+//Blog
 Route::get('blog', array('as' => 'blog', 'uses' => 'blog@index'));
 Route::get('blog/view/(:any)', array('as' => 'blog_view', 'uses' => 'blog@view'));
 

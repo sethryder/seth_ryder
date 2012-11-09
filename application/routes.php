@@ -38,6 +38,7 @@ Route::get('/', function()
 });
 
 Route::get('about', array('as' => 'about', 'uses' => 'home@about'));
+Route::get('contact', array('as' => 'contact', 'uses' => 'home@contact'));
 
 //Blog
 Route::get('blog', array('as' => 'blog', 'uses' => 'blog@index'));

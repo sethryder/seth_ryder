@@ -14,4 +14,9 @@ class Home_Controller extends Base_Controller {
 		return 'About';
 	}
 
+	public function get_contact()
+	{
+		return 'Contact';
+	}
+
 }
